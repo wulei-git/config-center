@@ -4,7 +4,7 @@ spring:
     - dev
 ---
 server:
-  port: 9003
+  port: 9999
 spring:
   profiles: dev  #开发环境
   application:
