@@ -4,15 +4,15 @@ spring:
     - dev
 ---
 server:
-  port: 8201
+  port: 9003
 spring:
   profiles: dev  #开发环境
   application:
-    name: microservicecloud-config-client
+    name: mini-db
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka-dev.com:7001/eureka/
+      defaultZone: http://localhost:7001/eureka/
 ---
 server:
   port: 9003
