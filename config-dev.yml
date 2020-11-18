@@ -3,7 +3,7 @@ spring:
     active:
     - dev
 ---
-name: wulei123
+name: wulei12345
 server:
   port: 9999
 spring:
